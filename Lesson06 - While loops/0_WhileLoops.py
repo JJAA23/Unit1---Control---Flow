@@ -39,3 +39,45 @@ while i<len(number):
     sum += int(number[i])
     i += 1
 print(f"Total {sum}")
+
+
+
+
+
+# algot]rithm - count digits (as ints)
+number = int(input("Enter a Number: "))
+sum = 0
+while number > 0:
+    digit = number % 10  #Get the last digit
+    sum += digit #Add to sum
+    number = number // 10 #Remove the last digit
+    
+print(f"The sum of digits {number}: {sum}")
+# algot]rithm - count digits (as ints)
+count = 0
+number = number // 10
+print(f"The number of: {n} = {number}")
+
+
+# algot]rithm - count digits (as ints)
+number = 54321
+n = number
+count = 0
+
+while number > 0:
+    count += 1
+    number = number // 10 #Remove the last digit
+print(f"The  number {n} has {count} ")
+
+
+
+
+
+
+
+
+
+
+
+
+
